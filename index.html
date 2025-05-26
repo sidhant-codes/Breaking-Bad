@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Breaking Bad Tribute</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-green-400 font-mono">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-b-4 border-green-500 sticky-top shadow py-2">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-green-400 tracking-widest" href="#">
+                <img src="Media/logo.png" alt="logo" class="h-16 ml-20">
+            </a>
+            <div class="justify-content-end" id="navbarNav">
+                <ul class="navbar-nav fs-5">
+                    <li class="nav-item"><a class="nav-link text-green-400 font-extrabold" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-green-400" href="character.html">Characters</a></li>
+                    <li class="nav-item"><a class="nav-link text-green-400" href="episodes.html">Timeline</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <!-- Hero Section -->
+    <section class="w-full text-center py-10 px-4 bg-black">
+        <img src="Media/Hero1.jpg" alt="Breaking Bad Hero"
+             class="mx-auto w-full max-w-5xl h-96 object-cover rounded-xl shadow-lg mb-6" />
+        <h1 class="text-4xl md:text-5xl font-bold text-green-400">Breaking Bad: From Chemistry to Chaos</h1>
+        <p class="mt-4 text-green-300 text-lg font-semibold tracking-wide leading-relaxed max-w-3xl mx-auto">
+          Breaking Bad is an American neo-Western crime drama series created by Vince Gilligan. It follows Walter
+          White, a high school chemistry teacher turned methamphetamine manufacturer.
+        </p>
+
+        <!-- Buttons -->
+        <div class="mt-6 flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="https://www.youtube.com/watch?v=HhesaQXLuRY" target="_blank"
+               class="px-6 py-3 bg-green-500 text-black font-bold rounded-full shadow hover:bg-green-600 transition duration-300">
+                ▶️ Watch Trailer
+            </a>
+            <a href="https://www.netflix.com/title/70143836" target="_blank"
+               class="px-6 py-3 bg-green-500 text-black font-bold rounded-full shadow hover:bg-green-800 transition duration-300">
+                📺 Watch Series
+            </a>
+        </div>
+    </section>
+
+            
+   <!-- About the Series Card -->
+    <section class="py-10 px-4 md:px-10 mt-8 max-w-4xl mx-auto">
+        <div class="card bg-black border-green-500 shadow-lg rounded-2xl">
+            <div class="card-body text-center">
+                <h2 class="card-title text-green-400 text-3xl font-bold mb-4 font-mono tracking-widest">
+                    <i class="bi bi-film me-2"></i>About the Series
+                </h2>
+                <p class="card-text text-green-300 text-lg leading-relaxed font-mono">
+                    <strong><em>Breaking Bad</em></strong> is a groundbreaking American television series created by
+                    <strong>Vince Gilligan</strong>. It originally aired on AMC from <strong>2008 to 2013</strong>, spanning
+                    <strong>5 intense seasons</strong> and 62 episodes. The series follows <strong>Walter White</strong>,
+                    a high school chemistry teacher turned methamphetamine manufacturer, as he partners with former
+                    student <strong>Jesse Pinkman</strong> to secure his family’s future in the wake of a terminal cancer
+                    diagnosis.
+                </p>
+                <p class="card-text text-green-300 text-lg mt-4 leading-relaxed font-mono">
+                    Known for its complex characters, moral ambiguity, and meticulous storytelling,
+                    <em>Breaking Bad</em> has earned critical acclaim and a passionate global fanbase. It won numerous
+                    awards, including <strong>16 Primetime Emmy Awards</strong>, and is often cited as one of the
+                    <strong>greatest TV shows of all time</strong>. With unforgettable performances by
+                    <strong>Bryan Cranston</strong> and <strong>Aaron Paul</strong>, the series explores themes of
+                    identity, consequence, and transformation.
+                </p>
+                <p class="card-text text-green-400 text-lg mt-4 leading-relaxed italic font-mono">
+                    "Chemistry is the study of change." — Walter White
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Episodes Section -->
+    <section id="episodes" class="container my-5 px-3 sm:px-0">
+        <h2 class="text-4xl fw-bold mb-4 border-b-4 border-green-500 pb-2 font-mono tracking-widest text-green-400">
+            Key Episodes
+        </h2>
+        <ul class="list-group list-group-flush text-green-300 fs-5 font-mono">
+            <li class="text-green-300 list-group-item bg-transparent border-green-500 border-bottom">
+                <strong>Season 1, Episode 1:</strong> "Pilot" – Walter White begins his descent into the drug world.
+            </li>
+            <li class="text-green-300 list-group-item bg-transparent border-green-500 border-bottom">
+                <strong>Season 2, Episode 12:</strong> "Phoenix" – Tragic consequences unfold.
+            </li>
+            <li class="text-green-300 list-group-item bg-transparent border-green-500 border-bottom">
+                <strong>Season 4, Episode 13:</strong> "Face Off" – A tense showdown with Gus Fring.
+            </li>
+            <li class="text-green-300 list-group-item bg-transparent border-green-500 border-bottom">
+                <strong>Season 5, Episode 16:</strong> "Felina" – The series finale that ties up the story.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Iconic Moments Section -->
+    <section class="container py-5 mt-5">
+    <h2 class="text-3xl text-green-300 mb-4">Iconic Moments</h2>
+    <div class="row g-4">
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="border border-green-500 rounded-3xl overflow-hidden hover:scale-105 transition-transform duration-300">
+          <iframe width="360" height="240" src="https://www.youtube.com/embed/31Voz1H40zI?si=0lMtbFK3PkqaobbU"></iframe>
+          <div class="p-3 bg-black bg-opacity-70 text-green-300 text-center font-mono">“I am the danger.” – Walt</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="border border-green-500 rounded-3xl overflow-hidden hover:scale-105 transition-transform duration-300">
+          <iframe width="360" height="215" src="https://www.youtube.com/embed/MPYlxeG-8_w?si=zpTaTL9uPLKiyRVq"></iframe>
+          <div class="p-3 bg-black bg-opacity-70 text-green-300 text-center font-mono">“Say my name.” — “You're Heisenberg.”</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="border border-green-500 rounded-3xl overflow-hidden hover:scale-105 transition-transform duration-300">
+          <iframe width="360" height="240" src="https://www.youtube.com/embed/tNXEBCnHftM?si=rcAnzN9eQacmVv1H"></iframe>
+          <div class="p-3 bg-black bg-opacity-70 text-green-300 text-center font-mono">Gus and the Box Cutter</div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="border border-green-500 rounded-3xl overflow-hidden hover:scale-105 transition-transform duration-300">
+          <iframe width="360" height="240" src="https://www.youtube.com/embed/UvW41GL4GO4?si=gWqp4GmxkmtKqhoI"></iframe>
+          <div class="p-3 bg-black bg-opacity-70 text-green-300 text-center font-mono">Felina – The Final Stand</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-black text-center text-green-400 py-4 mt-5 border-t-4 border-green-500">
+        <div class="container px-3 sm:px-0">
+            <p class="mb-1 font-mono">
+                Created by <strong>Sidhant Bisht</strong> |
+                <a href="https://www.amctv.com/shows/breaking-bad" target="_blank"
+                    class="text-green-400 text-decoration-none hover:underline">Official AMC Breaking Bad</a>
+            </p>
+            <p class="small text-green-600 font-mono">
+                &copy; 2025 Breaking Bad Tribute. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
