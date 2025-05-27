@@ -44,7 +44,6 @@ It includes:
 - **HTML5** — Semantic page structure
 - **Tailwind CSS** — Utility-first styling
 - **Bootstrap 5** — Responsive layout and components
-- **Bootstrap Icons** — Clean and minimal iconography
 - **YouTube Embed** — Highlight scenes directly in the browser
 - **Open Graph Tags** — Enhanced social media previews
 
